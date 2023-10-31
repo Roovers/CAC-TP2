@@ -1,0 +1,80 @@
+@media screen and (min-width: 1024px) {
+
+  body {
+    overflow-x: hidden;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .mid-tit {
+    text-align: center;
+    padding: 20px;
+  }
+
+    #navbarNavAltMarkup.collapse.navbar-collapse {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .carousel-item img {
+        height: 800px;
+        object-fit:fill;
+        filter: brightness(70%);
+      }
+
+      .carousel-caption {
+        margin-bottom: 100px;
+      }
+
+      .carousel-caption h1{
+        text-align: right;
+      }
+
+      .carousel-caption p{
+        text-align: right;
+        margin-left: 600px;
+  }
+      
+    .botones {
+        display: flex;
+        justify-content: end;
+    }
+
+    .btn.btn-primary.btn-lg {
+        background-color: rgba(0, 0, 0, 0.144);
+        border: solid 1px rgba(255, 255, 255, 0.521);
+        margin-right: 15px;
+    }
+    .btn.btn-secondary.btn-lg {
+        background-color: rgba(5, 153, 0, 0.74);
+        border: 1px solid rgba(255, 255, 255, 0.144);
+    }
+
+    .row.row-cols-1.row-cols-md-5.g-4 {
+        display: flex;
+        justify-content: space-around;
+    }
+    #boton{
+      font-size: 10px;
+      height: 25px;
+      text-align: center;
+    }
+
+    #conoce-mas:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+      color: #fff;
+    }
+
+    .col-md-12 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .col-md-12 a:hover{
+      text-decoration: none;
+    }
+  }
